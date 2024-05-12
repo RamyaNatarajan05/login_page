@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("style.png");
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 97vh;
+}
+.regform{
+    width: 500px;
+    background-color: rgba(0,0,0,0.21);
+    margin: 250px auto;
+    color: wheat;
+    padding:30px;
+    font-size: 25px;
+    margin-top: 40px;
+    border-radius:10px ;
+}
+.regform h3{
+    color:rgb(46, 41, 78);
+    text-align: center;
+
+}
+.regform .textlabel1{
+    display: block;
+    
+}
+#name{
+    margin-top: 10px;
+}
+#email{
+    margin-top: 10px;
+}
+#pwd{
+    margin-top: 10px;
+}
+.input input{
+    width: 90%;
+    font-size: 0.8em;
+    border: 2px solid #006D77;
+    box-shadow: 3px;
+    
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px ;
+}
+input:focus{
+    background-color: aquamarine;
+
+}
+.btn{
+    text-align: center;
+}
+button{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    box-shadow: 4px 4px 10px rgb(234, 92, 210);
+    display: inline-block;
+
+    }
+button:hover{
+    background-color: rgb(153, 79, 222);
+    transition: 0.5s;
+}
+.radio input{
+    color: rgb(214, 107, 107);
+    transform:scale(1.5);
+}
+.radio{
+    word-spacing: 10px;
+}
